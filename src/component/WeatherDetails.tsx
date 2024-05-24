@@ -15,7 +15,7 @@ const WeatherDetails = (props: {
         <h3>{city}</h3>
         <p>Chance of rain: {chanceOfRain}%</p>
         <h1>{temperature}°</h1>
-        <h5>Today's Forecast</h5>
+        <h5>Today &apos;s Forecast</h5>
         <div className="d-flex justify-content-between">
           {forecast.today.map((item: any, index: any) => (
             <div key={index} className="text-center">

@@ -9,7 +9,7 @@ const TodayForecast = ({ forecast }: { forecast: any }) => {
   return (
     <Card className="mt-4">
       <Card.Body>
-        <h5>Today's Forecast</h5>
+        <h5>Today &apos;s Forecast</h5>
         <Row
           className="mt-4"
           style={{ gap: "5px", height: "40vh", overflowY: "auto" }}

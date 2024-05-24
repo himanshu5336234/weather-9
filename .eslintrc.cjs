@@ -6,6 +6,7 @@ module.exports = {
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:import/recommended",
+
     ],
     parser: "@typescript-eslint/parser",
     plugins: ["@typescript-eslint"],
@@ -16,6 +17,7 @@ module.exports = {
         "import/namespace": 2,
         "import/default": 2,
         "import/export": 2,
+        "@typescript-eslint/no-explicit-any": ["off"],
         "import/no-unresolved": [2, { commonjs: true, amd: true }],
     },
 };
